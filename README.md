@@ -39,6 +39,19 @@ Coding examples are available in the **doc/examples** directory.
 FFmpeg codebase is mainly LGPL-licensed with optional components licensed under
 GPL. Please refer to the LICENSE file for detailed information.
 
+### LGPL Compliance
+
+FFmpeg is **LGPL v2.1+ compliant** by default. For detailed compliance information:
+
+- **Quick Check**: Run `./check_lgpl_compliance.sh` to verify LGPL compliance
+- **Quick Reference**: See [LGPL_QUICK_REFERENCE.md](LGPL_QUICK_REFERENCE.md) for common scenarios
+- **Detailed Report**: See [LGPL_COMPLIANCE.md](LGPL_COMPLIANCE.md) for comprehensive analysis
+
+**Key Points:**
+- Default build is LGPL v2.1+ (safe for commercial closed-source use)
+- Do not use `--enable-gpl` or `--enable-nonfree` if you need LGPL compliance
+- Always verify license with `./configure | grep "License:"` before building
+
 ## Contributing
 
 Patches should be submitted to the ffmpeg-devel mailing list using
