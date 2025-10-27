@@ -1,0 +1,14 @@
+Built with Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34809 for x64
+configuration: 
+  --toolchain=msvc 
+  --arch=x86_64 
+  --enable-shared 
+  --disable-static 
+  --prefix=./build 
+  --disable-gpl 
+  --disable-version3 
+  --disable-nonfree 
+  --enable-mediafoundation 
+  --disable-libx264 
+  --disable-libx265 
+  --optflags=-O2
